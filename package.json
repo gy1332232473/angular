@@ -1,0 +1,19 @@
+{
+  "name": "day16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.6.3",
+    "bootstrap": "^3.3.7",
+    "jquery": "^1.11.3"
+  },
+  "dependencies": {
+    "ui-router": "^1.0.0-alpha.3"
+  }
+}
