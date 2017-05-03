@@ -1,1 +1,64 @@
-<div>厉害了，我的天去去去</div>
+<div ng-controller="customersCtrl">
+
+<table  class="bg-info">
+	<thead>
+		<tr >
+			<th>ID</th>
+			<th >产品</th>
+			<th >产品编号</th>
+			<th >价格</th>
+			<th >数量</th>
+			<th >类型</th>
+		</tr>
+	</thead>
+	<tbody >
+		<tr ng-repeat="x in data">
+			<th>{{x[0]}}</th>
+			<td>{{x[1]}}</td>
+			<td>{{x[2]}}</td>
+			<td>{{x[3]}}</td>
+			<td>{{x[4]}}</td>
+			<td>{{x[5]}}</td>
+		</tr>
+		
+	</tbody>
+</table>
+<nav aria-label="Page navigation">
+        <ul class="pagination">
+            <li>
+            <a href="javascript:;" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+            </li>
+            <li><a href="javascript:;">1</a></li>
+            <li><a href="javascript:;">2</a></li>
+            <li><a href="javascript:;">3</a></li>
+            <li><a href="javascript:;">4</a></li>
+            <li><a href="javascript:;">5</a></li>
+            <li>
+            <a href="javascript:;" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+            </li>
+        </ul>
+        </nav>
+          
+    <button  onclick="fn()">111</button>
+</div>
+<style>
+    table{
+        margin-top: 40px;
+        width: 900px;
+       
+    }
+    th,td{
+        text-align: center; 
+        
+    }
+    tr{
+        height: 40px;
+    }
+    nav{
+        text-align: center;
+    }
+</style>
